@@ -1,0 +1,6 @@
+services:
+  portfolio-api:
+    build: .
+    container_name: portfolio-api
+    ports:
+      - "8080:8080"
